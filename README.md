@@ -1,1 +1,1 @@
-﻿# web2
+# Web2 - sitio estático
