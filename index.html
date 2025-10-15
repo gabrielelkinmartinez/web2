@@ -1,1 +1,362 @@
-﻿<!doctype html><html><head><meta charset='utf-8'><title>web2</title></head><body>Hola</body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro Lingüístico - Inicio</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <div class="header__brand">
+        <a class="header__logo" href="/" aria-label="Logo institucional primario">CL</a>
+        <a class="header__logo" href="/" aria-label="Logo institucional secundario">LX</a>
+      </div>
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-nav-toggle>
+          <span class="visually-hidden">Abrir menú</span>
+          <span class="burger__lines"></span>
+        </button>
+        <ul class="nav__list" role="list">
+          <li><a class="nav__link" href="/" data-match="/">Inicio</a></li>
+          <li><a class="nav__link" href="/oferta-academica/" data-match="/oferta-academica,/oferta-academica/pruebas-internacionales">Académico</a></li>
+          <li><a class="nav__link" href="/actividades/" data-match="/actividades,/noticias,/tramites,/tutoriales">Comunidad</a></li>
+          <li><a class="nav__link" href="/tramites/" data-match="/tramites,/tutoriales,/preguntas-frecuentes,/normativa">Soporte</a></li>
+          <li><a class="nav__link" href="/quienes-somos/" data-match="/quienes-somos,/contacto,/como-llegar">Nosotros</a></li>
+          <li><a class="nav__link nav__link--highlight" href="/valores/">Tarifas</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="/inscripciones/">Inscríbete</a>
+      </nav>
+    </div>
+  </header>
+  <div class="nav__panel" data-nav-panel></div>
+  <aside class="nav__drawer" id="mobile-menu" data-nav-drawer aria-label="Menú móvil">
+    <div class="header__brand">
+      <span class="header__logo" aria-hidden="true">CL</span>
+      <span class="header__logo" aria-hidden="true">LX</span>
+    </div>
+    <ul class="nav__list" role="list">
+      <li><a class="nav__link" href="/" data-match="/">Inicio</a></li>
+      <li><a class="nav__link" href="/oferta-academica/" data-match="/oferta-academica,/oferta-academica/pruebas-internacionales">Académico</a></li>
+      <li><a class="nav__link" href="/actividades/" data-match="/actividades,/noticias,/tramites,/tutoriales">Comunidad</a></li>
+      <li><a class="nav__link" href="/tramites/" data-match="/tramites,/tutoriales,/preguntas-frecuentes,/normativa">Soporte</a></li>
+      <li><a class="nav__link" href="/quienes-somos/" data-match="/quienes-somos,/contacto,/como-llegar">Nosotros</a></li>
+      <li><a class="nav__link nav__link--highlight" href="/valores/">Tarifas</a></li>
+    </ul>
+    <a class="btn btn--primary nav__cta" href="/inscripciones/">Inscríbete</a>
+  </aside>
+  <main id="main-content">
+    <section class="hero" data-slider tabindex="0">
+      <div class="hero__slides">
+        <article class="hero__slide" data-slide data-bg="https://picsum.photos/1600/900?random=21">
+          <div class="hero__overlay" aria-hidden="true"></div>
+          <div class="hero__content">
+            <span class="hero__eyebrow">Centro Lingüístico</span>
+            <h1 class="hero__title">Descubre nuevas oportunidades con idiomas estratégicos</h1>
+            <p class="hero__text">Programas personalizados y certificaciones internacionales que potencian tu perfil académico y profesional.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="/oferta-academica/">Explorar oferta</a>
+              <a class="btn btn--outline" href="/inscripciones/">Calendario de inscripciones</a>
+            </div>
+          </div>
+        </article>
+        <article class="hero__slide" data-slide data-bg="https://picsum.photos/1600/900?random=22">
+          <div class="hero__overlay" aria-hidden="true"></div>
+          <div class="hero__content">
+            <span class="hero__eyebrow">Aprendizaje flexible</span>
+            <h2 class="hero__title">Modalidades presenciales, virtuales y combinadas</h2>
+            <p class="hero__text">Ajustamos los horarios y metodologías para que puedas estudiar sin dejar de lado tus proyectos.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="/valores/">Consultar tarifas</a>
+              <a class="btn btn--outline" href="/tramites/">Ver trámites recientes</a>
+            </div>
+          </div>
+        </article>
+        <article class="hero__slide" data-slide data-bg="https://picsum.photos/1600/900?random=23">
+          <div class="hero__overlay" aria-hidden="true"></div>
+          <div class="hero__content">
+            <span class="hero__eyebrow">Comunidad global</span>
+            <h2 class="hero__title">Eventos, talleres y noticias para vivir el idioma</h2>
+            <p class="hero__text">Participa en actividades culturales y prácticas conversacionales con hablantes nativos.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="/actividades/">Próximas actividades</a>
+              <a class="btn btn--outline" href="/preguntas-frecuentes/">Resuelve tus dudas</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="hero__controls" aria-hidden="true">
+        <button class="hero__btn" type="button" data-slider-prev aria-label="Diapositiva anterior">&#10094;</button>
+        <div class="hero__dots">
+          <button class="hero__dot" type="button" data-slider-dot aria-label="Ir a la diapositiva 1"></button>
+          <button class="hero__dot" type="button" data-slider-dot aria-label="Ir a la diapositiva 2"></button>
+          <button class="hero__dot" type="button" data-slider-dot aria-label="Ir a la diapositiva 3"></button>
+        </div>
+        <button class="hero__btn" type="button" data-slider-next aria-label="Diapositiva siguiente">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="section section--light" aria-labelledby="languages">
+      <div class="container">
+        <h2 class="section__title" id="languages">Idiomas disponibles</h2>
+        <p class="section__description">Selecciona el idioma que mejor se adapte a tus metas. Cada programa cuenta con niveles alineados al Marco Común Europeo y docentes certificados.</p>
+        <div class="cards languages cards--grid-4" role="list">
+          <article class="card" role="listitem">
+            <div class="languages__icon" aria-hidden="true">EN</div>
+            <h3 class="card__title">Inglés Académico</h3>
+            <p class="card__meta">Preparación integral desde básico hasta avanzado con enfoque comunicativo.</p>
+            <a class="btn btn--outline card__btn" href="/oferta-academica/">Ver detalles</a>
+          </article>
+          <article class="card" role="listitem">
+            <div class="languages__icon" aria-hidden="true">FR</div>
+            <h3 class="card__title">Francés Profesional</h3>
+            <p class="card__meta">Programas diseñados para certificaciones DELF y actividades diplomáticas.</p>
+            <a class="btn btn--outline card__btn" href="/oferta-academica/">Ver detalles</a>
+          </article>
+          <article class="card" role="listitem">
+            <div class="languages__icon" aria-hidden="true">DE</div>
+            <h3 class="card__title">Alemán Técnico</h3>
+            <p class="card__meta">Ideal para estudiantes STEM que buscan oportunidades en países germanos.</p>
+            <a class="btn btn--outline card__btn" href="/oferta-academica/">Ver detalles</a>
+          </article>
+          <article class="card" role="listitem">
+            <div class="languages__icon" aria-hidden="true">PT</div>
+            <h3 class="card__title">Portugués Conversacional</h3>
+            <p class="card__meta">Clases dinámicas para conectar con comunidades lusófonas y negocios.</p>
+            <a class="btn btn--outline card__btn" href="/oferta-academica/">Ver detalles</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="modalidades">
+      <div class="container">
+        <h2 class="section__title" id="modalidades">Modalidades de estudio</h2>
+        <p class="section__description">Disfruta de experiencias formativas adaptadas a tu disponibilidad y estilo de aprendizaje. Todas las modalidades incluyen seguimiento personalizado.</p>
+        <div class="cards modalities cards--grid-3" role="list">
+          <article class="card" role="listitem">
+            <h3 class="card__title">Presencial</h3>
+            <p class="card__meta">Sesiones en nuestro campus con laboratorios multimedia y clubes conversacionales.</p>
+            <span class="badge">Nueva sede</span>
+          </article>
+          <article class="card" role="listitem">
+            <h3 class="card__title">Virtual en vivo</h3>
+            <p class="card__meta">Clases sincrónicas con plataformas interactivas y recursos descargables.</p>
+            <a class="btn btn--outline card__btn" href="/tutoriales/">Explorar recursos</a>
+          </article>
+          <article class="card" role="listitem">
+            <h3 class="card__title">Blended</h3>
+            <p class="card__meta">Combina sesiones presenciales y actividades virtuales para acelerar tu progreso.</p>
+            <a class="btn btn--outline card__btn" href="/proceso-inscripcion/">Cómo inscribirte</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" aria-labelledby="novedades">
+      <div class="container">
+        <h2 class="section__title" id="novedades">Últimas novedades</h2>
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Categorías de novedades">
+            <button class="tabs__tab" role="tab" id="tab-tramites" aria-controls="panel-tramites" aria-selected="true">Trámites recientes</button>
+            <button class="tabs__tab" role="tab" id="tab-noticias" aria-controls="panel-noticias" aria-selected="false">Noticias recientes</button>
+          </div>
+          <div class="tabs__panel" id="panel-tramites" role="tabpanel" aria-labelledby="tab-tramites">
+            <div class="cards cards--grid-2" role="list">
+              <article class="card" role="listitem">
+                <div class="card__media">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://picsum.photos/640/420?random=31" loading="lazy" alt="Personas revisando documentos" width="640" height="420">
+                </div>
+                <span class="card__category">Trámite</span>
+                <h3 class="card__title">Actualización de carné estudiantil</h3>
+                <p class="card__meta">Disponible hasta el 20 de abril - Oficina virtual</p>
+                <a class="btn btn--outline card__btn" href="/tramites/">Ver trámite</a>
+              </article>
+              <article class="card" role="listitem">
+                <div class="card__media">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://picsum.photos/640/420?random=32" loading="lazy" alt="Estudiantes en aula" width="640" height="420">
+                </div>
+                <span class="card__category">Trámite</span>
+                <h3 class="card__title">Certificaciones internacionales 2025</h3>
+                <p class="card__meta">Inscripciones abiertas para TOEFL, DELF y TestDaF</p>
+                <a class="btn btn--outline card__btn" href="/oferta-academica/pruebas-internacionales/">Revisar requisitos</a>
+              </article>
+            </div>
+          </div>
+          <div class="tabs__panel" id="panel-noticias" role="tabpanel" aria-labelledby="tab-noticias">
+            <div class="cards cards--grid-2" role="list">
+              <article class="card" role="listitem">
+                <div class="card__media">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://picsum.photos/640/420?random=33" loading="lazy" alt="Docente impartiendo clase" width="640" height="420">
+                </div>
+                <span class="card__category">Noticia</span>
+                <h3 class="card__title">Nuevos talleres de conversación nivel B2</h3>
+                <p class="card__meta">Inscríbete en los clubes de práctica intensiva durante mayo.</p>
+                <a class="btn btn--outline card__btn" href="/noticias/">Leer noticia</a>
+              </article>
+              <article class="card" role="listitem">
+                <div class="card__media">
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://picsum.photos/640/420?random=34" loading="lazy" alt="Estudiante sonriendo" width="640" height="420">
+                </div>
+                <span class="card__category">Noticia</span>
+                <h3 class="card__title">Alianzas con instituciones internacionales</h3>
+                <p class="card__meta">Nuevos convenios para intercambios académicos en Europa y América.</p>
+                <a class="btn btn--outline card__btn" href="/noticias/">Leer noticia</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq">
+      <div class="container">
+        <h2 class="section__title" id="faq">Preguntas frecuentes</h2>
+        <p class="section__description">Encuentra respuestas rápidas sobre inscripciones, métodos de pago y certificaciones. Si necesitas más información, contáctanos.</p>
+        <div class="accordion" role="region" aria-labelledby="faq">
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-1" id="faq-control-1">
+              ¿Cómo elijo el nivel adecuado?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-1" role="region" aria-labelledby="faq-control-1">
+              <div class="accordion__content">Realiza nuestro test diagnóstico en línea y recibe la recomendación de nivel antes de formalizar tu inscripción.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-2" id="faq-control-2">
+              ¿Qué opciones de pago están disponibles?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-2" role="region" aria-labelledby="faq-control-2">
+              <div class="accordion__content">Aceptamos pagos en línea, consignación bancaria y convenios empresariales. Solicita asesoría personalizada en el área financiera.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-3" id="faq-control-3">
+              ¿Puedo homologar certificados previos?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-3" role="region" aria-labelledby="faq-control-3">
+              <div class="accordion__content">Sí. Presenta tu certificado vigente y el equipo académico validará la homologación para ubicarte en el nivel adecuado.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-4" id="faq-control-4">
+              ¿Las clases virtuales quedan grabadas?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-4" role="region" aria-labelledby="faq-control-4">
+              <div class="accordion__content">Sí, las sesiones en vivo se graban y se comparten durante siete días junto con materiales descargables.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-5" id="faq-control-5">
+              ¿Hay descuentos para grupos familiares?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-5" role="region" aria-labelledby="faq-control-5">
+              <div class="accordion__content">Contamos con tarifas preferenciales para núcleos familiares y convenios empresariales. Solicita más información en valores.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-6" id="faq-control-6">
+              ¿Qué materiales están incluidos?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-6" role="region" aria-labelledby="faq-control-6">
+              <div class="accordion__content">Incluimos licencias digitales, guías impresas y acceso a plataformas interactivas con recursos exclusivos.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-7" id="faq-control-7">
+              ¿Cómo solicito certificado de estudios?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-7" role="region" aria-labelledby="faq-control-7">
+              <div class="accordion__content">Ingresa a la sección de trámites, completa el formulario y recibe el documento digital en máximo tres días hábiles.</div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__button" aria-expanded="false" aria-controls="faq-panel-8" id="faq-control-8">
+              ¿Ofrecen asesoría para exámenes internacionales?
+              <span class="accordion__icon" aria-hidden="true">&#9660;</span>
+            </button>
+            <div class="accordion__panel" id="faq-panel-8" role="region" aria-labelledby="faq-control-8">
+              <div class="accordion__content">Sí, contamos con tutorías especializadas, simulacros y acompañamiento hasta el día de la prueba.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand" aria-label="Logos institucionales">
+          <span class="footer__brand-logo">CL</span>
+          <span class="footer__brand-logo">LX</span>
+          <span class="footer__brand-logo">EDU</span>
+        </div>
+        <p class="section__description">Comprometidos con el aprendizaje continuo y la internacionalización de la comunidad académica.</p>
+        <a class="btn btn--primary footer__cta" href="/inscripciones/">Inscríbete ahora</a>
+      </div>
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h3 class="footer__col-title">Horario</h3>
+          <div class="footer__links">
+            <span>Lunes a viernes: 7:00 a.m. - 8:00 p.m.</span>
+            <span>Sábados: 8:00 a.m. - 2:00 p.m.</span>
+            <span>Atención en línea permanente</span>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Contacto</h3>
+          <div class="footer__links">
+            <a href="mailto:info@centrolinguistico.edu">info@centrolinguistico.edu</a>
+            <a href="tel:+5710000000">+57 (1) 000 00 00</a>
+            <a href="https://wa.me/570000000000" target="_blank" rel="noopener">WhatsApp asesor</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Ubícanos</h3>
+          <div class="footer__links">
+            <span>Av. Académica 123</span>
+            <span>Campus Internacional</span>
+            <span>Ciudad Educativa</span>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Enlaces de interés</h3>
+          <div class="footer__links">
+            <a href="/oferta-academica/">Oferta académica</a>
+            <a href="/actividades/">Actividades</a>
+            <a href="/tutoriales/">Tutoriales</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Políticas y documentos</h3>
+          <div class="footer__links">
+            <a href="/normativa/">Reglamento institucional</a>
+            <a href="/normativa/">Tratamiento de datos</a>
+            <a href="/preguntas-frecuentes/">Soporte académico</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Enlaces adicionales</h3>
+          <div class="footer__links">
+            <a href="/proceso-inscripcion/">Proceso de inscripción</a>
+            <a href="/valores/">Tarifas 2025</a>
+            <a href="/contacto/">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__legal">© 2025 Centro Lingüístico. Todos los derechos reservados. Información sujeta a cambios sin previo aviso.</div>
+  </footer>
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Volver al inicio">&#8679;</button>
+</body>
+</html>
