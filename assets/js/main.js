@@ -41,6 +41,54 @@ const navDrawer = qs('[data-nav-drawer]');
 const navLinks = qsa('.nav__link');
 let releaseFocus = () => {};
 
+/* Caminos y rutas base */
+const baseElement = document.querySelector('base');
+let baseUrl;
+try {
+  const href = baseElement?.getAttribute('href') || './';
+  baseUrl = new URL(href, window.location.href);
+} catch (error) {
+  baseUrl = new URL(window.location.href);
+}
+const basePath = (() => {
+  const path = baseUrl.pathname.replace(/\/$/, '');
+  return path || '/';
+})();
+const protocolPattern = /^[a-z][a-z0-9+.-]*:/i;
+
+const resolveToUrl = (value) => {
+  if (value instanceof URL) return value;
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    if (protocolPattern.test(trimmed)) {
+      try {
+        return new URL(trimmed);
+      } catch (error) {
+        return new URL(baseUrl.href);
+      }
+    }
+    if (trimmed.startsWith('//')) {
+      return new URL(`${window.location.protocol}${trimmed}`);
+    }
+    const candidate = trimmed.startsWith('/') ? `.${trimmed}` : trimmed || './';
+    return new URL(candidate, baseUrl.href);
+  }
+  return new URL(String(value || './'), baseUrl.href);
+};
+
+const normalizePath = (value) => {
+  const url = resolveToUrl(value);
+  let path = url.pathname;
+  if (basePath !== '/' && path.startsWith(basePath)) {
+    path = path.slice(basePath.length) || '/';
+  }
+  if (!path.startsWith('/')) path = `/${path}`;
+  if (path === '/' || path === '') return '/';
+  path = path.replace(/\/index\.html$/, '');
+  if (path.endsWith('/')) path = path.slice(0, -1);
+  return path || '/';
+};
+
 const closeNav = () => {
   body.classList.remove('is-locked');
   navPanel?.classList.remove('is-active');
@@ -88,16 +136,17 @@ updateHeaderState();
 on(window, 'scroll', updateHeaderState);
 
 /* Marca de navegación activa */
-const normalizePath = (pathname) => {
-  if (!pathname || pathname === '/') return '/';
-  return pathname.replace(/\/$/, '') || '/';
-};
-
-const currentPath = normalizePath(window.location.pathname);
+const currentPath = normalizePath(window.location.href);
 
 navLinks.forEach((link) => {
-  const matchesAttr = link.dataset.match ? link.dataset.match.split(',').map(normalizePath) : [];
-  const hrefPath = normalizePath(new URL(link.href, window.location.origin).pathname);
+  const matchesAttr = link.dataset.match
+    ? link.dataset.match
+        .split(',')
+        .map((value) => normalizePath(value.trim()))
+        .filter(Boolean)
+    : [];
+  const hrefAttr = link.getAttribute('href') || link.href;
+  const hrefPath = normalizePath(hrefAttr);
   const pathsToCheck = [hrefPath, ...matchesAttr];
   const isActive = pathsToCheck.some((path) => currentPath === path || currentPath.startsWith(`${path}/`));
   if (isActive) {
