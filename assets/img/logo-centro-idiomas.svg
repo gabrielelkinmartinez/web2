@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" role="img" aria-labelledby="title">
+  <title id="title">Logo Centro de Idiomas Universidad de los Llanos</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d3fa5"/>
+      <stop offset="100%" stop-color="#0a286c"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(10 20)">
+    <circle cx="55" cy="60" r="52" fill="none" stroke="url(#grad)" stroke-width="14"/>
+    <path d="M90 60c0-19-16-35-35-35s-35 16-35 35 16 35 35 35c7 0 14-2 20-6l18 20c2 2 6 1 7-2l6-15c1-2 0-4-1-5l-14-15c0-1 0-7 0-7Z" fill="#f23d3d"/>
+    <circle cx="55" cy="60" r="16" fill="#0d3fa5"/>
+  </g>
+  <g transform="translate(140 24)" fill="#132867">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" letter-spacing="1">CENTRO DE</text>
+  </g>
+  <g transform="translate(140 70)" fill="#f23d3d">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="1">IDIOMAS</text>
+  </g>
+  <g transform="translate(140 118)" fill="#132867">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="1">UNIVERSIDAD DE LOS LLANOS</text>
+  </g>
+</svg>

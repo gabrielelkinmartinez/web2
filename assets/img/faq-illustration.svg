@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="faqIllustrationTitle faqIllustrationDesc">
+  <title id="faqIllustrationTitle">Ilustración de chat</title>
+  <desc id="faqIllustrationDesc">Dos burbujas de diálogo que representan conversación y acompañamiento.</desc>
+  <defs>
+    <linearGradient id="faqGradientBackground" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d47a1" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#1363df" stop-opacity="0.32" />
+    </linearGradient>
+    <linearGradient id="faqGradientBubble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f23d3d" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f23d3d" stop-opacity="0.32" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="32" fill="url(#faqGradientBackground)" />
+  <g transform="translate(52 70)">
+    <path d="M44 0h128c24.3 0 44 19.7 44 44v58c0 24.3-19.7 44-44 44H100l-40 32a6 6 0 0 1-10-4.7V146C23.7 146 4 126.3 4 102V44C4 19.7 23.7 0 48 0Z" fill="#fff" opacity="0.95" />
+    <path d="M94 28h80c18.8 0 34 15.2 34 34v40c0 18.8-15.2 34-34 34H142l-26 20a5 5 0 0 1-8-4v-13h-14c-18.8 0-34-15.2-34-34V62c0-18.8 15.2-34 34-34Z" fill="url(#faqGradientBubble)" />
+    <circle cx="124" cy="80" r="6" fill="#fff" opacity="0.9" />
+    <circle cx="148" cy="80" r="6" fill="#fff" opacity="0.9" />
+    <circle cx="172" cy="80" r="6" fill="#fff" opacity="0.9" />
+  </g>
+</svg>

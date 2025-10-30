@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2025-10-22T15:10:09+00:00",
+  "featured": [
+    "charla-virtual-oportunidades-alemania-2025",
+    "club-conversacion-ingles-nov-2025",
+    "gran-semana-francofonia-2025",
+    "maraton-preparacion-ielts-dic-2025"
+  ],
+  "annualHighlights": [
+    "conferencia-poder-multilinguismo-2024",
+    "festival-cultural-idiomas-2025"
+  ],
+  "activities": [
+    {
+      "slug": "charla-virtual-oportunidades-alemania-2025",
+      "title": "Charla Virtual: Oportunidades para Estudiar en Alemania",
+      "summary": "Conéctate a nuestra charla virtual y conoce las becas y programas para estudiar en Alemania junto a nuestros aliados internacionales.",
+      "category": "Orientación Internacional",
+      "timeline": "upcoming",
+      "startDate": "2025-11-18T15:00:00-05:00",
+      "endDate": "2025-11-18T16:30:00-05:00",
+      "location": "Sesión virtual (Teams)",
+      "modality": "Virtual",
+      "audience": "Estudiantes activos, egresados e interesados en movilidad internacional",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Estudiantes conectados en una sesión virtual",
+      "featuredSummary": "Descubre becas, convenios y consejos para proyectar tus estudios en Alemania con especialistas invitados para el periodo 2025-2026.",
+      "theme": "slate",
+      "tags": [
+        "Becas",
+        "Movilidad internacional"
+      ],
+      "cta": {
+        "label": "Regístrate en la charla",
+        "url": "https://forms.gle/UfLTYjcharlaAlemania2025",
+        "note": "Recibirás el enlace de conexión a tu correo institucional un día antes del evento."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Esta charla reúne a expertos de DAAD y egresados de la Universidad de los Llanos que actualmente cursan estudios en Alemania. Conocerás los requisitos clave, fechas de aplicación y estrategias para fortalecer tu perfil académico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durante la sesión resolveremos dudas frecuentes sobre costos, seguros médicos, trámites de visa y los cursos de alemán que ofrece el Centro de Idiomas como apoyo para las convocatorias."
+        },
+        {
+          "type": "list",
+          "title": "Temas destacados",
+          "items": [
+            "Becas vigentes para pregrado, posgrado y estancias de investigación.",
+            "Testimonios de estudiantes que ya viven la experiencia en Alemania.",
+            "Recomendaciones para preparar cartas de motivación y entrevistas."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "club-conversacion-ingles-nov-2025",
+      "title": "Club de Conversación en Inglés - Noviembre",
+      "summary": "Únete a nuestro club de conversación en inglés y practica tus habilidades en un ambiente amigable y dinámico, moderado por docentes y monitores internacionales invitados.",
+      "category": "Académico",
+      "timeline": "upcoming",
+      "startDate": "2025-11-06T16:00:00-05:00",
+      "endDate": "2025-11-06T17:30:00-05:00",
+      "location": "Biblioteca Sede Barcelona",
+      "modality": "Presencial",
+      "audience": "Estudiantes de niveles B1 en adelante",
+      "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Grupo de jóvenes conversando en una biblioteca",
+      "featuredSummary": "Sesiones dinámicas con juegos de roles, debates guiados y actividades lúdicas para impulsar tu fluidez.",
+      "theme": "ruby",
+      "tags": [
+        "Conversación",
+        "Inglés"
+      ],
+      "cta": {
+        "label": "Reservar un cupo",
+        "url": "https://forms.gle/ClubConversacionNoviembre2025",
+        "note": "Cupos limitados. Se confirmará asistencia por correo un día antes del encuentro."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cada mes exploramos nuevas temáticas contemporáneas para ayudarte a desarrollar vocabulario útil y seguridad al hablar. Los encuentros están guiados por docentes certificados y monitores internacionales invitados."
+        },
+        {
+          "type": "list",
+          "title": "Qué incluye la sesión",
+          "items": [
+            "Warm-up y dinámicas para activar el idioma.",
+            "Debate central con apoyo de material audiovisual.",
+            "Feedback personalizado y recomendaciones de práctica autónoma."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Trae tu libreta de apuntes y ganas de participar. Si no puedes asistir de manera presencial, pregunta por las sesiones híbridas del mes siguiente."
+        }
+      ]
+    },
+    {
+      "slug": "gran-semana-francofonia-2025",
+      "title": "Gran Semana de la Francofonía Unillanos 2025",
+      "summary": "Celebra con nosotros la diversidad de la Francofonía con cine, gastronomía, invitados internacionales y rutas culturales por la ciudad.",
+      "category": "Cultural",
+      "timeline": "upcoming",
+      "startDate": "2025-03-17T09:00:00-05:00",
+      "endDate": "2025-03-21T20:00:00-05:00",
+      "location": "Sedes del Centro de Idiomas Unillanos",
+      "modality": "Presencial / Híbrido",
+      "audience": "Comunidad universitaria y público general",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Personas disfrutando de un festival cultural",
+      "featuredSummary": "Una semana completa de actividades francófonas: talleres, conciertos, muestra gastronómica y feria de oportunidades en países francófonos.",
+      "theme": "ocean",
+      "tags": [
+        "Francés",
+        "Cultura"
+      ],
+      "cta": {
+        "label": "Consultar programación",
+        "url": "https://centrodeidiomas.unillanos.edu.co/francofonia2026",
+        "note": "Descarga la agenda completa y regístrate a los eventos con cupo."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Semana de la Francofonía reúne a embajadas, alianzas francesas y artistas invitados para acercarnos a la cultura francófona. Tendremos espacios de conversación, muestras gastronómicas y funciones de cine."
+        },
+        {
+          "type": "list",
+          "title": "Agenda destacada",
+          "items": [
+            "Lunes 16: Apertura oficial y degustación gastronómica.",
+            "Martes 17: Taller de cocina francesa y sesión de poesía slam.",
+            "Miércoles 18: Conversatorio sobre oportunidades de estudio en Canadá y Bélgica.",
+            "Jueves 19: Concierto de música francófona.",
+            "Viernes 20: Feria de movilidad y cierre cultural."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "maraton-preparacion-ielts-dic-2025",
+      "title": "Maratón de Preparación IELTS",
+      "summary": "Prepárate para el IELTS con una jornada intensiva que cubre estrategias para Listening, Reading, Writing y Speaking con simulacros programados para el cierre de 2025.",
+      "category": "Certificaciones",
+      "timeline": "upcoming",
+      "startDate": "2025-12-05T08:00:00-05:00",
+      "endDate": "2025-12-05T17:30:00-05:00",
+      "location": "Aula Virtual Centro de Idiomas",
+      "modality": "Virtual",
+      "audience": "Estudiantes y público externo que presentarán IELTS en 2025",
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Persona estudiando en computador con cuaderno de notas",
+      "featuredSummary": "Simulacros cronometrados, retroalimentación inmediata y guía personalizada para tu plan de estudio.",
+      "theme": "indigo",
+      "tags": [
+        "IELTS",
+        "Preparación de exámenes"
+      ],
+      "cta": {
+        "label": "Inscribirme en la maratón",
+        "url": "https://forms.gle/MaratonIELTSDiciembre2025",
+        "note": "Incluye material descargable y acceso a un banco de preguntas adicional."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los docentes certificados IELTS de nuestro Centro te guiarán en cada habilidad. Analizaremos modelos de respuesta band score 7+, errores frecuentes y cómo administrar el tiempo durante el examen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Al finalizar recibirás un plan de trabajo personalizado según tu puntaje objetivo y las fechas recomendadas para presentar el examen oficial."
+        }
+      ]
+    },
+    {
+      "slug": "conferencia-poder-multilinguismo-2024",
+      "title": "Conferencia: El Poder del Multilingüismo en el Siglo XXI",
+      "summary": "Revive los mejores momentos de nuestra conferencia sobre la importancia del multilingüismo en el mundo actual.",
+      "category": "Conferencia",
+      "timeline": "past",
+      "startDate": "2024-11-14T18:00:00-05:00",
+      "endDate": "2024-11-14T20:00:00-05:00",
+      "location": "Auditorio Lillianos",
+      "modality": "Presencial",
+      "audience": "Docentes, estudiantes y comunidad académica",
+      "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Conferencia académica con público atento",
+      "featuredSummary": "Expertos nacionales e internacionales compartieron experiencias de aprendizaje multilingüe.",
+      "theme": "amber",
+      "tags": [
+        "Multilingüismo",
+        "Innovación educativa"
+      ],
+      "cta": {
+        "label": "Ver memorias",
+        "url": "https://centrodeidiomas.unillanos.edu.co/multilinguismo2024",
+        "note": "Descarga la relatoría completa y vuelve a ver las ponencias destacadas."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El panel reunió a especialistas en educación, tecnología y psicología del aprendizaje para analizar los beneficios de dominar varios idiomas en entornos profesionales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si no pudiste asistir, accede a las memorias en video y a las presentaciones que compartieron nuestros ponentes invitados."
+        }
+      ]
+    },
+    {
+      "slug": "festival-cultural-idiomas-2025",
+      "title": "Festival Cultural de Idiomas 2025",
+      "summary": "Un encuentro para celebrar la diversidad lingüística con muestras artísticas, gastronomía y presentaciones de nuestros estudiantes.",
+      "category": "Cultural",
+      "timeline": "past",
+      "startDate": "2025-09-20T10:00:00-05:00",
+      "endDate": "2025-09-20T19:00:00-05:00",
+      "location": "Plaza Central Campus Barcelona",
+      "modality": "Presencial",
+      "audience": "Comunidad universitaria y familias",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Festival cultural al aire libre",
+      "featuredSummary": "Muestras musicales, exposiciones artísticas, feria gastronómica y stands de intercambio cultural.",
+      "theme": "sunset",
+      "tags": [
+        "Festival",
+        "Interculturalidad"
+      ],
+      "cta": {
+        "label": "Ver galería fotográfica",
+        "url": "https://centrodeidiomas.unillanos.edu.co/festivalidiomas2024",
+        "note": "Descubre los mejores momentos capturados durante el festival."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El Festival Cultural de Idiomas es un espacio para compartir talentos artísticos en diferentes idiomas. Tuvimos presentaciones musicales, obras de teatro cortas y la tradicional muestra gastronómica internacional."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gracias a los aportes de estudiantes y docentes, cada stand representó una región del mundo con juegos interactivos y actividades para toda la familia."
+        }
+      ]
+    }
+  ]
+}

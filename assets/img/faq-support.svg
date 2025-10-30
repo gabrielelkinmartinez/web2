@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="supportTitle supportDesc">
+  <title id="supportTitle">Equipo de soporte</title>
+  <desc id="supportDesc">Ilustración de un equipo ofreciendo soporte con elementos tecnológicos.</desc>
+  <defs>
+    <linearGradient id="supportGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1363df" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#f23d3d" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="24" fill="url(#supportGrad)" />
+  <path d="M48 180c0-35.3 28.7-64 64-64h96c35.3 0 64 28.7 64 64" fill="#fff" opacity="0.92" />
+  <circle cx="112" cy="104" r="32" fill="#fff" opacity="0.95" />
+  <circle cx="208" cy="112" r="36" fill="#fff" opacity="0.9" />
+  <rect x="94" y="58" width="120" height="32" rx="12" fill="#0d47a1" opacity="0.12" />
+  <rect x="142" y="132" width="120" height="44" rx="16" fill="#f23d3d" opacity="0.12" />
+  <circle cx="88" cy="70" r="10" fill="#fff" opacity="0.85" />
+  <circle cx="232" cy="158" r="10" fill="#fff" opacity="0.85" />
+</svg>

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "faq-1",
+    "question": "¿Cómo puedo inscribirme en un curso de idiomas?",
+    "answer": "Accede a https://idiomas.unillanos.edu.co/, elige la sede e idioma de tu preferencia y completa el formulario de inscripción dentro de las fechas habilitadas. Allí también encontrarás la información de soporte si necesitas ayuda durante el proceso.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-2",
+    "question": "¿Cuáles son los cursos disponibles en el Centro de Idiomas?",
+    "answer": "Ofertamos programas de inglés para niños, adolescentes y adultos, además de cursos de francés, alemán y portugués para mayores de 15 años. Cada idioma cuenta con niveles progresivos que se adaptan a tus objetivos y disponibilidad de tiempo.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-3",
+    "question": "¿Qué niveles de idiomas se ofrecen?",
+    "answer": "En inglés contamos con cinco niveles alineados al MCER (A1, A2, B1, B2 y C1).\n\n- 5 a 10 años: intensidad de 3 horas semanales, tomadas en una sola jornada entre semana o los sábados. Valor 2025: $537.000 por semestre (no incluye material).\n- 11 a 14 años: intensidad de 4 horas semanales distribuidas en dos días (martes y jueves o miércoles y viernes) o en una jornada de sábado. Valor 2025: $723.000 por nivel (material no incluido).\n- 15 años en adelante: rutas de 4 horas semanales (un nivel por año) u 8 horas semanales (un nivel por semestre).\n\nEn francés, alemán y portugués ofrecemos cuatro niveles (A1 a B2) para estudiantes desde los 15 años.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-4",
+    "question": "¿Cuál es la duración de los cursos?",
+    "answer": "La duración depende del rango de edad y la intensidad horaria elegida. Para niños de 5 a 10 años cada nivel dura un año académico. Entre los 11 y 14 años el nivel ofertado también dura un año. Desde los 15 años la duración varía: con 4 horas semanales se completa un nivel por año y con 8 horas semanales se finaliza un nivel por semestre.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-5",
+    "question": "¿Qué modalidad de clases ofrecen?",
+    "answer": "Actualmente solo ofertamos programas presenciales en nuestros campus y espacios autorizados.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-6",
+    "question": "¿Quiénes pueden participar en los cursos de idiomas?",
+    "answer": "Nuestros programas están dirigidos a la comunidad en general a partir de los 5 años de edad. No necesitas ser estudiante activo de la Universidad de los Llanos para inscribirte.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-7",
+    "question": "¿Cómo se realiza la evaluación en los cursos?",
+    "answer": "Evaluamos las cuatro habilidades comunicativas (speaking, listening, reading y writing) en tres cortes durante el periodo académico. Cada corte combina actividades en clase, trabajos aplicados y evaluaciones formales.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-8",
+    "question": "¿Se otorgan certificados al finalizar los cursos?",
+    "answer": "Sí. Una vez apruebas el nivel y cumples los requisitos de asistencia, expedimos el certificado correspondiente.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-9",
+    "question": "¿Qué requisitos necesito para inscribirme?",
+    "answer": "No exigimos requisitos previos. Solo debes diligenciar el formulario de inscripción dentro de las fechas establecidas y completar el proceso de pago. Si buscas un nivel diferente al inicial, podrás solicitar una prueba diagnóstica.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-10",
+    "question": "¿Existen descuentos para egresados de la universidad?",
+    "answer": "Sí. El descuento por proyección social aplica para egresados que carguen su acta o diploma en el formulario habilitado. También aplica para carnets institucionales vigentes, hijos de estudiantes, docentes, funcionarios, pensionados, población con discapacidad, comunidades especiales y beneficiarios de convenios interinstitucionales.",
+    "category": "clave",
+    "priority": true
+  },
+  {
+    "id": "faq-11",
+    "question": "¿Cuáles son los horarios de los cursos?",
+    "answer": "Dependemos del rango de edad. Para 5 a 10 años tenemos jornadas lunes, miércoles, viernes o sábados. Para 11 a 14 años ofrecemos martes y jueves, miércoles y viernes o sábados. Para mayores de 15 años: rutas de 4 horas (martes y jueves o miércoles y viernes) y rutas de 8 horas (lunes a jueves entre 6:00 a.m. y 9:00 p.m.).",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-12",
+    "question": "¿Los cursos se pueden tomar de manera virtual?",
+    "answer": "No. Actualmente todos nuestros programas se desarrollan de forma presencial.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-13",
+    "question": "¿Puedo cambiar de grupo o nivel durante el curso?",
+    "answer": "Los cambios de horario o nivel están sujetos a las fechas definidas en el calendario académico y a la disponibilidad de cupos. Para mayores de 15 años es posible solicitar un cambio al finalizar y aprobar el nivel vigente.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-14",
+    "question": "¿Cómo me entero de la apertura de nuevos cursos?",
+    "answer": "Publicamos las convocatorias en nuestras redes sociales oficiales (Facebook: Centro de Idiomas de la Unillanos) y en nuestros canales de WhatsApp. También puedes revisar periódicamente nuestra página web.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-15",
+    "question": "¿Qué materiales necesito para los cursos?",
+    "answer": "El único material obligatorio es el libro de texto asignado para cada nivel. Los demás recursos son proporcionados por el docente según el plan académico.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-16",
+    "question": "¿Existen cursos para niños?",
+    "answer": "Sí. Ofrecemos cursos de inglés diseñados especialmente para niños desde los 5 años, con metodologías lúdicas y grupos por edades.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-17",
+    "question": "¿Se ofrece algún tipo de preparación para exámenes internacionales?",
+    "answer": "Sí. Podemos orientarte según el examen que requieras y actualmente contamos con la aplicación de pruebas internacionales IELTS y PEIC. Si buscas otro examen, pregúntanos y te guiaremos sobre las opciones disponibles.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-18",
+    "question": "¿Qué pasa si no puedo asistir a una clase?",
+    "answer": "Debes informar al docente y enviar la excusa correspondiente al correo del Centro de Idiomas. Solo se aceptan excusas de tipo médico, laboral o extracurricular debidamente soportadas.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-19",
+    "question": "¿Cuáles son los métodos de pago para los cursos?",
+    "answer": "Puedes pagar el semestre y la matrícula en efectivo o con tarjeta de crédito a través de los canales autorizados.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-20",
+    "question": "¿Puedo tomar más de un curso al mismo tiempo?",
+    "answer": "Sí. Puedes inscribirte en cursos de dos idiomas siempre que tu disponibilidad horaria lo permita. Es una excelente forma de potenciar tus habilidades.",
+    "category": "cursos",
+    "priority": false
+  },
+  {
+    "id": "faq-21",
+    "question": "¿Cómo puedo obtener una constancia de participación?",
+    "answer": "Las constancias de estudio se solicitan a través del correo del Centro de Idiomas indicando tus datos completos y el nivel cursado.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-22",
+    "question": "¿El Centro de Idiomas ofrece clases de idiomas para empresas?",
+    "answer": "Sí. Las empresas interesadas pueden contactar a la Coordinación para conocer los convenios vigentes y diseñar programas a la medida.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-23",
+    "question": "¿Cuál es el proceso para obtener un certificado de suficiencia en un idioma?",
+    "answer": "Este certificado se expide únicamente para trámites internos de la Universidad y, actualmente, aplica para estudiantes de Maestría conforme al Acuerdo 011.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-24",
+    "question": "¿Los cursos tienen algún tipo de apoyo fuera de las clases?",
+    "answer": "Sí. Contamos con monitorías como apoyo extracurricular. El docente puede solicitarlas a la Coordinación completando el formulario destinado para este fin.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-25",
+    "question": "¿Puedo estudiar idiomas en el Centro de Idiomas si no soy estudiante de la Universidad de los Llanos?",
+    "answer": "Claro que sí. Estamos abiertos a la comunidad en general desde los 5 años en adelante.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-26",
+    "question": "¿Cómo puedo saber si tengo el nivel adecuado para un curso?",
+    "answer": "Después de matricularte puedes solicitar una prueba diagnóstica. Con sus resultados definimos el nivel en el que debes continuar.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-27",
+    "question": "¿Puedo hacer cambios en mi matrícula después de inscribirme?",
+    "answer": "Todos los procesos están sujetos a las fechas establecidas en el calendario académico. Fuera de esas fechas no es posible realizar modificaciones.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-28",
+    "question": "¿El Centro de Idiomas ofrece algún tipo de beca o ayuda financiera?",
+    "answer": "Disponemos de la tarifa de proyección social. Para acceder debes acreditar al menos una de las siguientes condiciones: carné institucional vigente, ser hijo de estudiante de la Unillanos, egresado, docente, funcionario o pensionado de la Universidad, pertenecer a población en situación de discapacidad, desplazada, indígena, afrodescendiente o víctima del conflicto, o hacer parte de un convenio interinstitucional.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-29",
+    "question": "¿Cómo se organiza el trabajo práctico en los cursos?",
+    "answer": "Implementamos metodologías activas: actividades de conversación, exposiciones, trabajos escritos y proyectos que fortalecen la comunicación efectiva con apoyo de recursos actuales y docentes especializados.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-30",
+    "question": "¿Cuáles son los requisitos para graduarse de un curso?",
+    "answer": "Debes haber culminado y aprobado todos los niveles previstos para el programa en el que te inscribiste.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-31",
+    "question": "¿Dónde puedo consultar fechas importantes?",
+    "answer": "Divulgamos las fechas clave en nuestras redes sociales oficiales y en los listados informativos de WhatsApp. Allí encontrarás calendarios y recordatorios de procesos.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-32",
+    "question": "¿Qué normas aplica el Centro de Idiomas?",
+    "answer": "Nos regimos por las normas ISO 9001, NTC 5555 de 2011 y NTC 5580 de 2011, orientadas a los sistemas de gestión de calidad y programas de formación para el trabajo en idiomas.",
+    "category": "administrativo",
+    "priority": false
+  },
+  {
+    "id": "faq-33",
+    "question": "¿Cómo es el proceso de reintegro para los estudiantes antiguos?",
+    "answer": "Debes enviar un correo solicitando el reintegro al iniciar cada periodo académico con tus datos completos. Revisaremos tu trazabilidad y, si dejaste de estudiar dos semestres, deberás presentar prueba diagnóstica. Si han pasado más de 12 meses sin estudiar, debes realizar el proceso como estudiante nuevo.",
+    "category": "administrativo",
+    "priority": false
+  }
+]

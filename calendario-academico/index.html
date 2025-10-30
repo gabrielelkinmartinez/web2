@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario Académico - Centro Lingüístico</title>
+  <base href="../">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+<header class="header" data-header>
+  <div class="header__top">
+    <div class="container header__top-inner">
+      <div class="header__social" role="navigation" aria-label="Redes sociales">
+        <a class="header__social-link" href="https://www.facebook.com/centrodeidiomasunillanos" target="_blank" rel="noopener noreferrer">
+          <span class="visually-hidden">Facebook</span>
+          <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14 9h3.4l-.5 4H14v11h-4V13H7V9h3V6.6C10 3.7 11.8 2 15 2c1.4 0 2.5.1 2.5.1l-.1 3.8h-1.8c-1.4 0-1.6.6-1.6 1.7V9Z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a class="header__social-link" href="https://www.youtube.com/@centrodeidiomasdependencia5670" target="_blank" rel="noopener noreferrer">
+          <span class="visually-hidden">YouTube</span>
+          <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.6 7.2c-.3-1.8-1.7-3.2-3.4-3.5C16 3.2 12 3.2 12 3.2s-4 0-6.2.5c-1.7.3-3.1 1.7-3.4 3.5C2 9.2 2 12 2 12s0 2.8.4 4.8c.3 1.8 1.7 3.2 3.4 3.5 2.2.5 6.2.5 6.2.5s4 0 6.2-.5c1.7-.3 3.1-1.7 3.4-3.5.4-2 .4-4.8.4-4.8s0-2.8-.4-4.8Zm-12.6 8.3V8.5l6.2 3.5-6.2 3.5Z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a class="header__social-link" href="https://api.whatsapp.com/send/?phone=573112004339&amp;text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+el+Centro+de+Idiomas.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">
+          <span class="visually-hidden">WhatsApp</span>
+          <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2a9.9 9.9 0 0 0-8.5 15.4L2 22l4.8-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.7.7-2.7-.2-.3A8 8 0 1 1 12 20Zm4-5.9c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.4.1c-.1.2-.5.7-.6.8-.1.2-.2.1-.4 0a6.5 6.5 0 0 1-3-2.6c-.3-.4.3-.4.8-1.4 0-.1 0-.2-.1-.3l-.6-1.4c-.1-.3-.3-.3-.5-.3h-.4c-.1 0-.3 0-.4.2-.2.2-.8.7-.8 1.8s.8 2.1.9 2.3c.1.2 1.5 2.4 3.7 3.4.5.2.9.3 1.2.4.5.1 1 .1 1.3 0 .4-.1 1.2-.5 1.4-.9.2-.4.2-.7.1-.9-.1-.1-.2-.2-.4-.3Z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+      <div class="header__quick">
+        <div class="header__quick-item" data-utility>
+          <button class="header__quick-toggle" type="button" data-utility-toggle="yo-soy" aria-expanded="false" aria-controls="utility-yo-soy">
+            <span class="header__quick-icon" aria-hidden="true">
+              <svg class="icon icon--utility" viewBox="0 0 24 24">
+                <path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm0 2c-4.4 0-8 2.5-8 5.5V21h16v-1.5c0-3-3.6-5.5-8-5.5Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="header__quick-label">Yo Soy</span>
+          </button>
+          <div class="header__quick-menu" id="utility-yo-soy" data-utility-menu="yo-soy" hidden>
+            <a class="header__quick-link" href="#!">Estudiantes Extensión a la Comunidad</a>
+            <a class="header__quick-link" href="#!">Padres de Familia</a>
+            <a class="header__quick-link" href="#!">Docente</a>
+            <a class="header__quick-link" href="#!">Estudiantes Pregrado (Plan BULL)</a>
+          </div>
+        </div>
+        <div class="header__quick-item" data-utility>
+          <button class="header__quick-toggle" type="button" data-utility-toggle="mas" aria-expanded="false" aria-controls="utility-mas">
+            <span class="header__quick-label">MÁS</span>
+          </button>
+          <div class="header__quick-menu" id="utility-mas" data-utility-menu="mas" hidden>
+            <a class="header__quick-link" href="https://www.pearson.com/" target="_blank" rel="noopener">Plataforma Pearson</a>
+            <a class="header__quick-link" href="https://www.blinklearning.com/" target="_blank" rel="noopener">Plataforma BlinkLearning</a>
+            <a class="header__quick-link" href="https://www.ngl.cengage.com/" target="_blank" rel="noopener">National Geographic Learning</a>
+            <a class="header__quick-link" href="https://www.britannica.com/" target="_blank" rel="noopener">Britannica Education</a>
+          </div>
+        </div>
+        <a class="header__quick-iconbtn" href="#buscar" aria-label="Buscar">
+          <svg class="icon icon--utility" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m20.7 19.3-3.8-3.8a7 7 0 1 0-1.4 1.4l3.8 3.8a1 1 0 0 0 1.4-1.4ZM6 11a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="header__bar">
+    <div class="container header__bar-inner">
+      <div class="header__brand">
+        <a class="header__seal" href="https://www.unillanos.edu.co/" target="_blank" rel="noopener" aria-label="Universidad de los Llanos">
+          <img class="header__seal-img" src="assets/img/logo-universidad.png" alt="Universidad de los Llanos">
+        </a>
+        <span class="header__divider" aria-hidden="true"></span>
+        <a class="header__mark" href="https://idiomas.unillanos.edu.co/" target="_blank" rel="noopener" aria-label="Centro de Idiomas">
+          <img class="header__mark-img" src="assets/img/logo-centro-idiomas-unillanos-color.png" alt="Centro de Idiomas - Universidad de los Llanos">
+        </a>
+      </div>
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-nav-toggle>
+          <span class="visually-hidden">Abrir menú</span>
+          <span class="burger__lines"></span>
+        </button>
+        <ul class="nav__list" role="list">
+          <li class="nav__item"><a class="nav__link" href="./" data-match="./">Inicio</a></li>
+          <li class="nav__item nav__item--has-menu">
+            <button class="nav__link nav__link--trigger" type="button" data-dropdown-toggle="academico" aria-expanded="false" aria-controls="dropdown-academico" data-match="./oferta-academica/,./oferta-academica/pruebas-internacionales/">
+              <span>Académico</span>
+            </button>
+            <div class="nav__menu" id="dropdown-academico" data-dropdown="academico" role="list" hidden>
+              <a class="nav__menu-card" href="./oferta-academica/" data-match="./oferta-academica/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M5 5h14v14H5z" fill="#f7f8fa"/>
+                    <path d="M6 6h12v10H6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                    <path d="M6 6l6 4 6-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Oferta Académica</span>
+                  <span class="nav__menu-text">Cursos de idiomas disponibles.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./oferta-academica/pruebas-internacionales/" data-match="./oferta-academica/pruebas-internacionales/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="m12 7 1.5 3.1 3.5.5-2.5 2.4.6 3.5L12 15l-3.1 1.6.6-3.5L7 10.6l3.5-.5Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Pruebas Internacionales</span>
+                  <span class="nav__menu-text">Prepárate para exámenes globales.</span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item nav__item--has-menu">
+            <button class="nav__link nav__link--trigger" type="button" data-dropdown-toggle="comunidad" aria-expanded="false" aria-controls="dropdown-comunidad" data-match="./actividades/,./noticias/">
+              <span>Comunidad</span>
+            </button>
+            <div class="nav__menu" id="dropdown-comunidad" data-dropdown="comunidad" role="list" hidden>
+              <a class="nav__menu-card" href="./actividades/" data-match="./actividades/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="16" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M3 9h18" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="8" cy="13" r="1.2" fill="currentColor"/>
+                    <circle cx="12" cy="13" r="1.2" fill="currentColor"/>
+                    <circle cx="16" cy="13" r="1.2" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Actividades y Eventos</span>
+                  <span class="nav__menu-text">Participa en nuestras experiencias.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./noticias/" data-match="./noticias/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="5" y="5" width="14" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M8 8h8M8 11h8M8 14h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Noticias</span>
+                  <span class="nav__menu-text">Mantente informado.</span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item nav__item--has-menu">
+            <button class="nav__link nav__link--trigger" type="button" data-dropdown-toggle="soporte" aria-expanded="false" aria-controls="dropdown-soporte" data-match="./tramites/,./tutoriales/,./proceso-inscripcion/,./preguntas-frecuentes/">
+              <span>Soporte</span>
+            </button>
+            <div class="nav__menu" id="dropdown-soporte" data-dropdown="soporte" role="list" hidden>
+              <a class="nav__menu-card" href="./tramites/" data-match="./tramites/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="5" y="4" width="14" height="16" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Trámites</span>
+                  <span class="nav__menu-text">Procesos administrativos.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./tutoriales/" data-match="./tutoriales/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="m10 9 6 3-6 3V9Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Tutoriales y Guías</span>
+                  <span class="nav__menu-text">Ayuda y recursos.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./proceso-inscripcion/" data-match="./proceso-inscripcion/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M6 18c0-3.3 2.7-6 6-6s6 2.7 6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M4 20h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Proceso de Inscripción</span>
+                  <span class="nav__menu-text">Cómo unirte a nuestros cursos.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./preguntas-frecuentes/" data-match="./preguntas-frecuentes/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M12 16h.01M11 10a2 2 0 1 1 2.8 1.8c-.9.4-1.8 1.2-1.8 2.2v.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Preguntas Frecuentes</span>
+                  <span class="nav__menu-text">Resuelve tus dudas.</span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item nav__item--has-menu">
+            <button class="nav__link nav__link--trigger" type="button" data-dropdown-toggle="nosotros" aria-expanded="false" aria-controls="dropdown-nosotros" data-match="./quienes-somos/,./contacto/,./normativa/,./como-llegar/">
+              <span>Nosotros</span>
+            </button>
+            <div class="nav__menu" id="dropdown-nosotros" data-dropdown="nosotros" role="list" hidden>
+              <a class="nav__menu-card" href="./quienes-somos/" data-match="./quienes-somos/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M5 20c0-3.9 3.1-7 7-7s7 3.1 7 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Quiénes Somos</span>
+                  <span class="nav__menu-text">Nuestra historia y misión.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./contacto/" data-match="./contacto/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M21 4H3v16h18V4Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="m4 5 8 7 8-7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Contacto</span>
+                  <span class="nav__menu-text">Comunícate con nosotros.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./normativa/" data-match="./normativa/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="6" y="3" width="12" height="18" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M9 7h6M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Normativa</span>
+                  <span class="nav__menu-text">Reglamentos y políticas.</span>
+                </span>
+              </a>
+              <a class="nav__menu-card" href="./como-llegar/" data-match="./como-llegar/">
+                <span class="nav__menu-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 21s6-6.3 6-11a6 6 0 1 0-12 0c0 4.7 6 11 6 11Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="12" cy="10" r="2.5" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="nav__menu-content">
+                  <span class="nav__menu-title">Cómo llegar</span>
+                  <span class="nav__menu-text">Encuentra nuestra ubicación.</span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__link nav__link--highlight" href="./valores/" data-match="./valores/">Tarifas</a></li>
+        </ul>
+        <a class="btn btn--cta nav__cta" href="./inscripciones/">Inscríbete</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="nav__panel" data-nav-panel></div>
+<aside class="nav__drawer" id="mobile-menu" data-nav-drawer aria-label="Menú móvil" hidden>
+  <div class="nav__drawer-header">
+    <div class="header__brand header__brand--drawer">
+      <a class="header__seal" href="https://www.unillanos.edu.co/" target="_blank" rel="noopener" aria-label="Universidad de los Llanos">
+        <img class="header__seal-img" src="assets/img/logo-universidad.png" alt="">
+      </a>
+      <a class="header__mark" href="https://idiomas.unillanos.edu.co/" target="_blank" rel="noopener" aria-label="Centro de Idiomas">
+        <img class="header__mark-img" src="assets/img/logo-centro-idiomas-unillanos-color.png" alt="">
+      </a>
+    </div>
+    <button class="nav__drawer-close" type="button" data-nav-close>
+      <span class="visually-hidden">Cerrar menú</span>
+      <span class="nav__drawer-close-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="nav__drawer-body">
+    <div class="nav__drawer-social">
+      <a class="header__social-link" href="https://www.facebook.com/centrodeidiomasunillanos" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 9h3.4l-.5 4H14v11h-4V13H7V9h3V6.6C10 3.7 11.8 2 15 2c1.4 0 2.5.1 2.5.1l-.1 3.8h-1.8c-1.4 0-1.6.6-1.6 1.7V9Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="header__social-link" href="https://www.youtube.com/@centrodeidiomasdependencia5670" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21.6 7.2c-.3-1.8-1.7-3.2-3.4-3.5C16 3.2 12 3.2 12 3.2s-4 0-6.2.5c-1.7.3-3.1 1.7-3.4 3.5C2 9.2 2 12 2 12s0 2.8.4 4.8c.3 1.8 1.7 3.2 3.4 3.5 2.2.5 6.2.5 6.2.5s4 0 6.2-.5c1.7-.3 3.1-1.7 3.4-3.5.4-2 .4-4.8.4-4.8s0-2.8-.4-4.8Zm-12.6 8.3V8.5l6.2 3.5-6.2 3.5Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="header__social-link" href="https://api.whatsapp.com/send/?phone=573112004339&amp;text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+el+Centro+de+Idiomas.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg class="icon icon--social" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2a9.9 9.9 0 0 0-8.5 15.4L2 22l4.8-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.7.7-2.7-.2-.3A8 8 0 1 1 12 20Zm4-5.9c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.4.1c-.1.2-.5.7-.6.8-.1.2-.2.1-.4 0a6.5 6.5 0 0 1-3-2.6c-.3-.4.3-.4.8-1.4 0-.1 0-.2-.1-.3l-.6-1.4c-.1-.3-.3-.3-.5-.3h-.4c-.1 0-.3 0-.4.2-.2.2-.8.7-.8 1.8s.8 2.1.9 2.3c.1.2 1.5 2.4 3.7 3.4.5.2.9.3 1.2.4.5.1 1 .1 1.3 0 .4-.1 1.2-.5 1.4-.9.2-.4.2-.7.1-.9-.1-.1-.2-.2-.4-.3Z" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
+    <nav class="nav nav--drawer" aria-label="Navegación móvil">
+      <ul class="nav__drawer-list" role="list">
+        <li class="nav__drawer-item"><a class="nav__drawer-link" href="./" data-match="./">Inicio</a></li>
+        <li class="nav__drawer-item nav__drawer-item--collapsible">
+          <button class="nav__drawer-toggle" type="button" data-drawer-toggle="drawer-academico" aria-expanded="false" aria-controls="drawer-panel-academico" data-match="./oferta-academica/,./oferta-academica/pruebas-internacionales/">Académico</button>
+          <div class="nav__drawer-panel" id="drawer-panel-academico" data-drawer-panel="drawer-academico" hidden>
+            <a class="nav__drawer-sublink" href="./oferta-academica/" data-match="./oferta-academica/">Oferta Académica</a>
+            <a class="nav__drawer-sublink" href="./oferta-academica/pruebas-internacionales/" data-match="./oferta-academica/pruebas-internacionales/">Pruebas Internacionales</a>
+          </div>
+        </li>
+        <li class="nav__drawer-item nav__drawer-item--collapsible">
+          <button class="nav__drawer-toggle" type="button" data-drawer-toggle="drawer-comunidad" aria-expanded="false" aria-controls="drawer-panel-comunidad" data-match="./actividades/,./noticias/">Comunidad</button>
+          <div class="nav__drawer-panel" id="drawer-panel-comunidad" data-drawer-panel="drawer-comunidad" hidden>
+            <a class="nav__drawer-sublink" href="./actividades/" data-match="./actividades/">Actividades y Eventos</a>
+            <a class="nav__drawer-sublink" href="./noticias/" data-match="./noticias/">Noticias</a>
+          </div>
+        </li>
+        <li class="nav__drawer-item nav__drawer-item--collapsible">
+          <button class="nav__drawer-toggle" type="button" data-drawer-toggle="drawer-soporte" aria-expanded="false" aria-controls="drawer-panel-soporte" data-match="./tramites/,./tutoriales/,./proceso-inscripcion/,./preguntas-frecuentes/">Soporte</button>
+          <div class="nav__drawer-panel" id="drawer-panel-soporte" data-drawer-panel="drawer-soporte" hidden>
+            <a class="nav__drawer-sublink" href="./tramites/" data-match="./tramites/">Trámites</a>
+            <a class="nav__drawer-sublink" href="./tutoriales/" data-match="./tutoriales/">Tutoriales y Guías</a>
+            <a class="nav__drawer-sublink" href="./proceso-inscripcion/" data-match="./proceso-inscripcion/">Proceso de Inscripción</a>
+            <a class="nav__drawer-sublink" href="./preguntas-frecuentes/" data-match="./preguntas-frecuentes/">Preguntas Frecuentes</a>
+          </div>
+        </li>
+        <li class="nav__drawer-item nav__drawer-item--collapsible">
+          <button class="nav__drawer-toggle" type="button" data-drawer-toggle="drawer-nosotros" aria-expanded="false" aria-controls="drawer-panel-nosotros" data-match="./quienes-somos/,./contacto/,./normativa/,./como-llegar/">Nosotros</button>
+          <div class="nav__drawer-panel" id="drawer-panel-nosotros" data-drawer-panel="drawer-nosotros" hidden>
+            <a class="nav__drawer-sublink" href="./quienes-somos/" data-match="./quienes-somos/">Quiénes Somos</a>
+            <a class="nav__drawer-sublink" href="./contacto/" data-match="./contacto/">Contacto</a>
+            <a class="nav__drawer-sublink" href="./normativa/" data-match="./normativa/">Normativa</a>
+            <a class="nav__drawer-sublink" href="./como-llegar/" data-match="./como-llegar/">Cómo llegar</a>
+          </div>
+        </li>
+        <li class="nav__drawer-item"><a class="nav__drawer-link" href="./valores/" data-match="./valores/">Tarifas</a></li>
+        <li class="nav__drawer-item nav__drawer-item--cta"><a class="btn btn--cta nav__cta" href="./inscripciones/">Inscríbete</a></li>
+      </ul>
+    </nav>
+  </div>
+</aside>
+
+    <main id="main-content">
+    <section class="calendar-hero" aria-labelledby="calendar-title">
+      <div class="container calendar-hero__inner">
+        <span class="calendar-hero__icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" focusable="false">
+            <rect x="10" y="14" width="44" height="40" rx="6" fill="currentColor" opacity="0.12" />
+            <rect x="10" y="16" width="44" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="3" />
+            <path d="M22 8v12M42 8v12M14 26h36" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            <circle cx="26" cy="36" r="2.8" fill="currentColor" />
+            <circle cx="38" cy="36" r="2.8" fill="currentColor" />
+          </svg>
+        </span>
+        <h1 class="calendar-hero__title" id="calendar-title">Calendario Académico Vigente 2025</h1>
+        <p class="calendar-hero__lead">Consulta las fechas clave para inscripciones, matrículas, inicio de clases y periodos de evaluación.</p>
+        <div class="calendar-hero__card">
+          <div class="calendar-hero__card-content">
+            <h2 class="calendar-hero__card-title">Resolución Oficial</h2>
+            <p class="calendar-hero__card-text">A continuación, puedes consultar el documento oficial que rige todas las fechas importantes del Centro de Idiomas para el año 2025.</p>
+            <a class="calendar-hero__btn" href="media/docs/resolucion-academica-096-2024.pdf" data-pdf-trigger data-pdf-src="media/docs/resolucion-academica-096-2024.pdf">Ver Resolución Académica N° 096 de 2024</a>
+          </div>
+          <p class="calendar-hero__note"><span class="calendar-hero__note-icon" aria-hidden="true">i</span> Cualquier modificación a este calendario será actualizada y reflejada en esta misma sección. Te recomendamos verificarla con regularidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section calendar-section" aria-labelledby="calendar-milestones">
+      <div class="container">
+        <header class="calendar-section__header">
+          <span class="calendar-section__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <path d="M10 8h28v32H10Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+              <path d="M18 16h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M16 24h16M16 30h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+            </svg>
+          </span>
+          <div>
+            <h2 class="calendar-section__title" id="calendar-milestones">Fechas Destacadas</h2>
+            <p class="calendar-section__subtitle">Planifica tu semestre con los hitos más importantes del calendario académico.</p>
+          </div>
+        </header>
+
+        <div class="calendar-period" data-calendar-periods>
+          <div class="calendar-period__tabs" role="tablist" aria-label="Selecciona el periodo académico">
+            <button class="calendar-period__tab is-active" type="button" role="tab" aria-selected="true" data-period-tab="primer">Primer periodo</button>
+            <button class="calendar-period__tab" type="button" role="tab" aria-selected="false" data-period-tab="segundo">Segundo periodo</button>
+          </div>
+
+          <div class="calendar-period__panel is-active" data-period-panel="primer">
+            <div class="calendar-grid">
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Enero</div>
+                <h3 class="calendar-card__title">Inscripciones y Diagnóstico</h3>
+                <ul class="calendar-card__list">
+                  <li>Convocatoria abierta para estudiantes nuevos y antiguos.</li>
+                  <li>Aplicación de pruebas de nivelación virtuales y presenciales.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Febrero</div>
+                <h3 class="calendar-card__title">Matrículas y Pagos</h3>
+                <ul class="calendar-card__list">
+                  <li>Generación de recibos y confirmación de horarios.</li>
+                  <li>Formalización de matrícula con entrega de documentos.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Marzo</div>
+                <h3 class="calendar-card__title">Inicio de Clases</h3>
+                <ul class="calendar-card__list">
+                  <li>Sesiones de inducción y bienvenida a los nuevos grupos.</li>
+                  <li>Activación de plataformas virtuales y soporte académico.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Junio</div>
+                <h3 class="calendar-card__title">Evaluaciones y Cierre</h3>
+                <ul class="calendar-card__list">
+                  <li>Desarrollo de evaluaciones finales orales y escritas.</li>
+                  <li>Publicación de resultados y proceso de certificación.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="calendar-period__panel" data-period-panel="segundo" hidden>
+            <div class="calendar-grid">
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Julio</div>
+                <h3 class="calendar-card__title">Inscripciones y Reinducción</h3>
+                <ul class="calendar-card__list">
+                  <li>Publicación de fechas de registro para estudiantes continuos.</li>
+                  <li>Espacios de orientación académica y actualización de datos.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Agosto</div>
+                <h3 class="calendar-card__title">Pago y Formalización</h3>
+                <ul class="calendar-card__list">
+                  <li>Emisión de recibos para el segundo periodo.</li>
+                  <li>Verificación de documentación y confirmación de grupos.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Septiembre</div>
+                <h3 class="calendar-card__title">Inicio de Cursos</h3>
+                <ul class="calendar-card__list">
+                  <li>Reinicio de actividades académicas y sesiones de bienvenida.</li>
+                  <li>Activación de aulas virtuales y tutorías de apoyo.</li>
+                </ul>
+              </article>
+
+              <article class="calendar-card">
+                <div class="calendar-card__tag">Noviembre</div>
+                <h3 class="calendar-card__title">Evaluación Final</h3>
+                <ul class="calendar-card__list">
+                  <li>Aplicación de pruebas integrales y cierre de módulos.</li>
+                  <li>Entrega de resultados y orientaciones para el siguiente periodo.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light calendar-section" aria-labelledby="calendar-timeline">
+      <div class="container">
+        <header class="calendar-section__header">
+          <span class="calendar-section__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <path d="M10 10h28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M10 38h28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M24 12v24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="2.5" />
+            </svg>
+          </span>
+          <div>
+            <h2 class="calendar-section__title" id="calendar-timeline">Cronograma Detallado</h2>
+            <p class="calendar-section__subtitle">Consulta la secuencia completa de actividades para el año académico.</p>
+          </div>
+        </header>
+
+        <div class="calendar-timeline">
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Matrículas ordinarias (estudiantes nuevos)</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 13 al 25 de enero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 16 al 28 de junio de 2025</span>
+              </div>
+              <p>Formaliza tu inscripción como estudiante nuevo durante las fechas ordinarias definidas por el Centro de Idiomas.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Matrículas ordinarias (estudiantes antiguos)</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 20 al 31 de enero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 1 al 12 de julio de 2025</span>
+              </div>
+              <p>Confirma tu continuidad académica como estudiante antiguo dentro de las fechas ordinarias.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Matrículas extraordinarias</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 1 al 3 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 14 al 19 de julio de 2025</span>
+              </div>
+              <p>Espacio adicional para estudiantes nuevos y antiguos que requieran completar el proceso fuera del periodo ordinario.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Publicación de horarios y sede</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 7 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 31 de julio de 2025</span>
+              </div>
+              <p>Consulta la asignación final de grupos, horarios y sedes antes de iniciar clases.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Inicio de clases</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 10 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 4 de agosto de 2025</span>
+              </div>
+              <p>Bienvenida oficial, inducción y arranque de contenidos para todos los grupos.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Cambios de horario o modalidad</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> Hasta el 15 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> Hasta el 9 de agosto de 2025</span>
+              </div>
+              <p>Gestiona ajustes excepcionales en tu grupo o modalidad durante las primeras semanas.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Aplazamiento del nivel o reserva de matrícula</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> Hasta el 21 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> Hasta el 15 de agosto de 2025</span>
+              </div>
+              <p>Solicita el aplazamiento del curso o la reserva de tu cupo para el siguiente periodo.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Devolución de matrículas por fuerza mayor</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> Hasta el 21 de febrero de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> Hasta el 15 de agosto de 2025</span>
+              </div>
+              <p>Trámite disponible con soportes que justifiquen la devolución según la normativa vigente.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Receso Semana Santa</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 14 al 19 de abril de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--na"><strong>Periodo II:</strong> No aplica</span>
+              </div>
+              <p>Pausa académica programada conforme al calendario nacional de Semana Santa.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Inscripciones estudiantes nuevos</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 1 al 30 de abril de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 1 al 31 de octubre de 2025</span>
+              </div>
+              <p>Convocatoria para aspirantes al Programa de Inglés de Extensión a la Comunidad.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Publicación de admitidos</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 3 de junio de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 2 de diciembre de 2025</span>
+              </div>
+              <p>Resultado oficial para los aspirantes que culminaron el proceso de inscripción.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Receso escolar MEN</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date calendar-timeline__date--na"><strong>Periodo I:</strong> No aplica</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 6 al 11 de octubre de 2025</span>
+              </div>
+              <p>Descanso académico según lineamientos del Ministerio de Educación Nacional.</p>
+            </div>
+          </div>
+
+          <div class="calendar-timeline__item">
+            <span class="calendar-timeline__marker" aria-hidden="true"></span>
+            <div class="calendar-timeline__body">
+              <h3>Final de clases</h3>
+              <div class="calendar-timeline__dates">
+                <span class="calendar-timeline__date"><strong>Periodo I:</strong> 7 de junio de 2025</span>
+                <span class="calendar-timeline__date calendar-timeline__date--alt"><strong>Periodo II:</strong> 29 de noviembre de 2025</span>
+              </div>
+              <p>Cierre oficial de actividades académicas y evaluación final de cada periodo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="calendar-overlay" data-pdf-overlay hidden>
+      <div class="calendar-overlay__backdrop" data-pdf-close></div>
+      <div class="calendar-overlay__dialog" role="dialog" aria-modal="true" aria-labelledby="calendar-pdf-title">
+        <div class="calendar-overlay__header">
+          <h2 class="calendar-overlay__title" id="calendar-pdf-title">Resolución Académica N° 096 de 2024</h2>
+          <button class="calendar-overlay__close" type="button" data-pdf-close aria-label="Cerrar visor de resolución">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <iframe class="calendar-overlay__frame" data-pdf-frame title="Resolución Académica N° 096 de 2024"></iframe>
+        <div class="calendar-overlay__fallback">
+          <p>Si el documento no se visualiza correctamente, puedes abrirlo en una pestaña nueva.</p>
+          <a class="calendar-overlay__fallback-link" href="media/docs/resolucion-academica-096-2024.pdf" target="_blank" rel="noopener">Abrir Resolución en nueva pestaña</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer" data-footer>
+  <div class="footer__top">
+    <div class="container footer__top-inner">
+      <div class="footer__brand-block">
+        <a class="footer__logo footer__logo--primary" href="./" aria-label="Centro de Idiomas">
+          <img src="assets/img/logo-centro-idiomas-unillanos-color.png" alt="Centro de Idiomas">
+        </a>
+        <a class="footer__logo footer__logo--alt" href="https://www.unillanos.edu.co" target="_blank" rel="noopener">
+          <img src="assets/img/logo-universidad.png" alt="Universidad de los Llanos">
+        </a>
+        <div class="footer__contact">
+          <p class="footer__contact-title">Contáctanos</p>
+          <ul class="footer__contact-list">
+            <li><a href="mailto:centrodeidiomas@unillanos.edu.co">centrodeidiomas@unillanos.edu.co</a></li>
+            <li><a href="tel:+576086312687">Tel. (608) 631 2687</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=573112004339&amp;text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+el+Centro+de+Idiomas.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">WhatsApp: 311 200 4339</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h2 class="footer__heading">Horario de atención</h2>
+          <p>Lunes a viernes de 7:00 a.m. a 7:00 p.m.<br>Sábados de 7:00 a.m. a 1:00 p.m.</p>
+          <h2 class="footer__heading">Redes sociales</h2>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/centrodeidiomasunillanos" target="_blank" rel="noopener" aria-label="Facebook"><span>Fb</span></a>
+            <a href="https://www.youtube.com/@centrodeidiomasdependencia5670" target="_blank" rel="noopener" aria-label="YouTube"><span>Yt</span></a>
+            <a href="https://api.whatsapp.com/send/?phone=573112004339&amp;text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+el+Centro+de+Idiomas.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" aria-label="WhatsApp"><span>Wp</span></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h2 class="footer__heading">Ubícanos</h2>
+          <p>Carrera 32 Nº 41A-108 <br> Barrio La Grama, Villavicencio - Meta</p>
+          <iframe class="footer__map" title="Centro de Idiomas - Mapa" src="https://maps.google.com/maps?q=centro%20de%20idiomas%20unillanos&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed" loading="lazy"></iframe>
+        </div>
+        <div class="footer__col">
+          <h2 class="footer__heading">Enlaces de interés</h2>
+          <ul class="footer__links">
+            <li><a href="./contacto/">Contáctanos</a></li>
+            <li><a href="./normativa/">Normativa</a></li>
+            <li><a href="./tramites/">Servicios y Trámites</a></li>
+            <li><a href="./quienes-somos/">Quiénes Somos</a></li>
+            <li><a href="./inscripciones/">Inscripciones</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2 class="footer__heading">Políticas y documentación</h2>
+          <ul class="footer__links">
+            <li><a href="#!">Política de Privacidad y Términos</a></li>
+            <li><a href="#!">Tratamiento de Datos Personales</a></li>
+            <li><a href="#!">Estatuto de Propiedad Intelectual</a></li>
+            <li><a href="#!">Lineamientos de Seguridad de la Información</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2 class="footer__heading">Enlaces adicionales</h2>
+          <ul class="footer__links">
+            <li><a href="#!">Transparencia y Acceso a la Información</a></li>
+            <li><a href="#!">Sistema PQRSFD</a></li>
+            <li><a href="#!">Más información sobre la Universidad</a></li>
+            <li><a href="#!">Sistema Integrado de Gestión (SIG)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__middle">
+    <div class="container footer__middle-inner">
+      <div class="footer__badges">
+        <span class="footer__badge">Educación</span>
+        <span class="footer__badge">Mineducación</span>
+        <span class="footer__badge">Gobierno Digital</span>
+        <span class="footer__badge">Colombia</span>
+      </div>
+      <div class="footer__campus">
+        <div>
+          <h3 class="footer__heading">Ubicaciones Universidad</h3>
+          <ul class="footer__links footer__links--compact">
+            <li>Campus Barcelona: Vía Puerto López Km 12</li>
+            <li>Campus San Antonio: Calle 37 N.º 41-02 Barzal</li>
+            <li>Campus Boquemonte: Kilómetro 2 Vía San Juan de Arama - Granada, Meta</li>
+            <li>Edificio Emprende: Calle 40 A N.º 32-28 Emporio</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__heading">Horarios Universidad</h3>
+          <p>Lunes a viernes de 7:30 a.m. a 11:30 a.m. y de 2:00 p.m. a 5:30 p.m.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <p>&copy; Universidad de los Llanos 2025. Reservados todos los derechos.</p>
+      <p>NIT: 892.000.379-5</p>
+      <div class="footer__bottom-links">
+        <a href="#!">Mapa del sitio</a>
+        <a href="#!">Terminos de uso</a>
+        <a href="#!">Accesibilidad</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Volver al inicio">&#8679;</button>
+</body>
+</html>
+
+
+
+

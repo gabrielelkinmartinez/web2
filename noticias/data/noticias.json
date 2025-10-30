@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2025-10-22T20:05:00-05:00",
+  "news": [
+    {
+      "slug": "convocatoria-cursos-extension-2025",
+      "title": "Convocatoria Cursos de Extensión primer semestre 2025",
+      "summary": "Inscríbete a los cursos de inglés, francés, alemán y portugués con metodologías renovadas y acompañamiento personalizado.",
+      "category": "Convocatoria",
+      "publishedAt": "2025-01-12T09:30:00-05:00",
+      "year": 2025,
+      "semester": "primer",
+      "author": "Coordinación Académica",
+      "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Grupo de estudiantes sonriendo en un salón de clases",
+      "tags": [
+        "Extensión",
+        "Inscripciones",
+        "Cursos 2025"
+      ],
+      "cta": {
+        "label": "Revisa el cronograma completo",
+        "url": "https://centrodeidiomas.unillanos.edu.co/convocatoria-extension-2025"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Abrimos la oferta de cursos de extensión en idiomas para el primer semestre de 2025 con niveles desde principiante hasta avanzado. Cada programa incluye sesiones presenciales y virtuales de refuerzo, acompañamiento docente y acceso a plataformas interactivas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las inscripciones estarán abiertas hasta el 9 de febrero de 2025 o hasta completar los cupos disponibles. Las clases inician la semana del 17 de febrero en las sedes Barcelona y San Antonio."
+        },
+        {
+          "type": "list",
+          "title": "Requisitos principales",
+          "items": [
+            "Registro actualizado en el sistema académico del Centro de Idiomas.",
+            "Pago del primer módulo antes de la semana de inducción.",
+            "Presentar la prueba de clasificación si eres estudiante nuevo."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nuevo-laboratorio-idiomas-sede-barcelona",
+      "title": "Nuevo laboratorio de idiomas inaugurado en Sede Barcelona",
+      "summary": "Espacio equipado con recursos multimedia, cabinas de grabación y software especializado para fortalecer la práctica oral.",
+      "category": "Innovación",
+      "publishedAt": "2025-08-26T10:10:00-05:00",
+      "year": 2025,
+      "semester": "segundo",
+      "author": "Coordinación de Innovación Pedagógica",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Laboratorio de idiomas con equipos de cómputo y cabinas de audio",
+      "tags": [
+        "Laboratorios",
+        "Tecnología educativa"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El nuevo laboratorio cuenta con 28 estaciones individuales con micrófonos de condensador, software para práctica auditiva y herramientas de seguimiento docente en tiempo real. Permitirá desarrollar actividades de conversación simulada y evaluación diagnóstica automática."
+        },
+        {
+          "type": "paragraph",
+          "text": "El espacio estará disponible para cursos regulares, clubes de conversación y talleres de preparación para exámenes de certificación internacional como TOEFL e IELTS."
+        },
+        {
+          "type": "quote",
+          "text": "\"Este laboratorio potencia la inmersión lingüística con experiencias que simulan interacciones reales y facilita la retroalimentación instantánea\", afirmó la directora del Centro de Idiomas, Marta Rojas."
+        }
+      ]
+    },
+    {
+      "slug": "testimonios-exito-centro-idiomas-2025",
+      "title": "Testimonios de éxito: estudiantes del Centro de Idiomas",
+      "summary": "Tres historias que reflejan el impacto de los programas de idiomas en proyectos personales, académicos y profesionales.",
+      "category": "Comunidad",
+      "publishedAt": "2025-09-14T08:45:00-05:00",
+      "year": 2025,
+      "semester": "segundo",
+      "author": "Equipo de Comunicaciones",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Estudiantes celebrando con diplomas en la mano",
+      "tags": [
+        "Historias de vida",
+        "Impacto"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Valentina, Daniel y Samira comparten cómo mejorar su nivel de inglés y francés les permitió acceder a becas, intercambios y emprendimientos creativos. Sus testimonios resaltan la importancia del acompañamiento docente y las estrategias de estudio personalizadas."
+        },
+        {
+          "type": "list",
+          "title": "Logros destacados",
+          "items": [
+            "Beca completa para intercambio académico en la Universidad de Rennes.",
+            "Certificación IELTS con puntaje 7.5 luego del curso intensivo.",
+            "Creación de un emprendimiento de tutorías bilingües en Villavicencio."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si quieres compartir tu historia, escribe a comunicaciones.idiomas@unillanos.edu.co con una fotografía horizontal y tu testimonio de máximo 300 palabras."
+        }
+      ]
+    },
+    {
+      "slug": "alianza-centro-idiomas-empresa-meta",
+      "title": "Alianza con empresas del Meta para formación en inglés corporativo",
+      "summary": "Firmamos convenios con cinco organizaciones para fortalecer las competencias bilingües de sus equipos de trabajo.",
+      "category": "Alianzas",
+      "publishedAt": "2024-11-05T07:55:00-05:00",
+      "year": 2024,
+      "semester": "segundo",
+      "author": "Dirección del Centro de Idiomas",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Representantes empresariales estrechando manos en una reunión",
+      "tags": [
+        "Sector productivo",
+        "Inglés corporativo"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Las empresas participantes recibirán planes de formación a la medida con evaluaciones periódicas y acompañamiento especializado. Los programas combinan sesiones presenciales, plataforma virtual y seguimiento con indicadores de desempeño."
+        },
+        {
+          "type": "paragraph",
+          "text": "La alianza se suma a las estrategias de transferencia de conocimiento con las que el Centro de Idiomas apoya el bilingüismo en la región."
+        }
+      ]
+    },
+    {
+      "slug": "becas-movilidad-idiomas-canada-2024",
+      "title": "Becas de movilidad para cursos intensivos de inglés en Canadá",
+      "summary": "Siete estudiantes fueron beneficiados con becas de movilidad corta gracias al convenio con el British Columbia Language Institute.",
+      "category": "Movilidad",
+      "publishedAt": "2024-06-18T11:20:00-05:00",
+      "year": 2024,
+      "semester": "primer",
+      "author": "Coordinación de Relaciones Internacionales",
+      "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Vista aérea de una ciudad canadiense con estudiantes caminando",
+      "tags": [
+        "Becas",
+        "Canadá",
+        "Movilidad estudiantil"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El programa incluye cuatro semanas de inmersión lingüística, alojamiento en casas anfitrionas y actividades culturales que complementan la formación académica."
+        },
+        {
+          "type": "list",
+          "title": "Criterios de selección",
+          "items": [
+            "Pertenecer a un programa activo del Centro de Idiomas con promedio igual o superior a 4.0.",
+            "Contar con nivel intermedio B1 certificado.",
+            "Presentar una carta de motivación y plan de transferencia de conocimiento."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "foro-innovacion-didactica-idiomas-2025",
+      "title": "Foro de innovación didáctica en la enseñanza de idiomas",
+      "summary": "Docentes investigadores compartieron estrategias sobre gamificación, realidad aumentada y aprendizaje basado en proyectos.",
+      "category": "Académico",
+      "publishedAt": "2025-04-22T15:30:00-05:00",
+      "year": 2025,
+      "semester": "primer",
+      "author": "Coordinación de Investigación",
+      "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Docentes presentando resultados de investigación en un auditorio",
+      "tags": [
+        "Innovación docente",
+        "Gamificación"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El foro contó con la participación de 12 ponentes nacionales e internacionales, quienes socializaron experiencias exitosas en educación bilingüe mediada por tecnologías."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las memorias estarán disponibles en formato video y revista digital para consulta de docentes y estudiantes."
+        }
+      ]
+    },
+    {
+      "slug": "resultados-certificaciones-internacionales-2024",
+      "title": "Resultados destacados en certificaciones internacionales 2024",
+      "summary": "El 87% de los estudiantes que presentaron IELTS, DELF y TestDaF alcanzaron el puntaje objetivo para sus procesos académicos.",
+      "category": "Resultados",
+      "publishedAt": "2024-12-02T09:15:00-05:00",
+      "year": 2024,
+      "semester": "segundo",
+      "author": "Coordinación de Certificaciones",
+      "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Docente entregando certificados a estudiantes",
+      "tags": [
+        "Certificaciones",
+        "IELTS",
+        "Resultados académicos"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Se presentaron 136 estudiantes a pruebas de certificación internacional durante el año con acompañamiento del Centro de Idiomas. El 54% superó el puntaje meta, mientras que el 33% alcanzó el mínimo requerido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los estudiantes destacaron la efectividad de los simulacros semanales y tutorías personalizadas como factores clave para su resultado."
+        }
+      ]
+    },
+    {
+      "slug": "club-lectura-multilingue-enero-2025",
+      "title": "Club de lectura multilingüe inicia sesiones de enero",
+      "summary": "Invitamos a la comunidad a participar en sesiones semanales con lecturas en inglés, francés y portugués acompañadas de actividades culturales.",
+      "category": "Cultura",
+      "publishedAt": "2025-01-30T17:05:00-05:00",
+      "year": 2025,
+      "semester": "primer",
+      "author": "Área de Cultura y Comunidad",
+      "image": "https://images.unsplash.com/photo-1529158062015-cad636e69505?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Personas leyendo libros en una mesa redonda",
+      "tags": [
+        "Clubes",
+        "Lectura"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cada sesión incluye lectura guiada, análisis de contexto cultural y ejercicios de pronunciación enfocados en la musicalidad de cada idioma."
+        },
+        {
+          "type": "paragraph",
+          "text": "La participación es gratuita para estudiantes activos del Centro de Idiomas y tiene un costo preferencial para la comunidad externa."
+        }
+      ]
+    }
+  ]
+}

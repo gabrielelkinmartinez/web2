@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2025-08-28T09:00:00-05:00",
+  "procedures": [
+    {
+      "slug": "certificado-estudios-2025-2",
+      "title": "Certificado de estudios activos",
+      "summary": "Documento oficial que acredita tu matrícula vigente y porcentaje de avance en el Centro de Idiomas.",
+      "category": "Académico",
+      "year": 2025,
+      "semester": "segundo",
+      "status": "Disponible",
+      "audience": "Estudiantes extensión y Plan BULL",
+      "processingTime": "3 días hábiles",
+      "delivery": "PDF enviado al correo institucional",
+      "cost": "Sin costo para estudiantes activos",
+      "updatedAt": "2025-08-05T08:30:00-05:00",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Estudiante consultando certificados desde su portátil",
+      "tags": ["Certificados", "Extensión", "Constancias"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El certificado de estudios se emite en español e inglés e incluye tu nivel actual, intensidad horaria y promedio acumulado. Es ideal para procesos de continuidad académica, becas y trámites laborales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una vez cargues los soportes, nuestro equipo validará la información con el Sistema de Gestión Académica y enviarás la constancia directamente al correo registrado para garantizar su autenticidad."
+        },
+        {
+          "type": "list",
+          "title": "Pasos de la solicitud",
+          "items": [
+            "Diligencia el formulario en línea y adjunta los documentos solicitados.",
+            "Recibirás un correo de confirmación con el número de radicado.",
+            "En máximo tres días hábiles llegará el PDF firmado digitalmente."
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Solicitar en línea",
+        "url": "https://forms.office.com/pages/certificado-estudios"
+      },
+      "requirements": [
+        "Registro actualizado en el sistema académico.",
+        "Documento de identidad en formato PDF (máx. 2 MB)."
+      ]
+    },
+    {
+      "slug": "terminacion-modulos-2025-2",
+      "title": "Constancia de terminación de módulo",
+      "summary": "Certifica la aprobación de un módulo con nota definitiva para procesos de homologación o becas.",
+      "category": "Resultados",
+      "year": 2025,
+      "semester": "segundo",
+      "status": "Disponible",
+      "audience": "Estudiantes modalidad intensiva y sabatina",
+      "processingTime": "48 horas",
+      "delivery": "Descarga en el portal + copia al correo",
+      "cost": "$24.000",
+      "updatedAt": "2025-07-22T10:00:00-05:00",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Persona firmando constancias académicas",
+      "tags": ["Constancias", "Becas", "Resultados"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La constancia incluye la nota definitiva, intensidad horaria y metodología del módulo cursado. Se expide en formato institucional con firma digital y código de verificación."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puedes solicitar varias constancias en una sola radicación si cursaste más de un nivel durante el periodo académico."
+        }
+      ],
+      "cta": {
+        "label": "Radicar solicitud",
+        "url": "https://forms.office.com/pages/terminacion-modulos"
+      },
+      "requirements": [
+        "No registrar novedades disciplinarias.",
+        "Adjuntar comprobante de pago del derecho de constancia."
+      ]
+    },
+    {
+      "slug": "homologacion-nivel-externo-2025-2",
+      "title": "Homologación de nivel para estudiantes externos",
+      "summary": "Evalúa certificados internacionales o pruebas externas para ubicarte en el nivel apropiado.",
+      "category": "Académico",
+      "year": 2025,
+      "semester": "segundo",
+      "status": "En evaluación permanente",
+      "audience": "Estudiantes nuevos con certificaciones vigentes",
+      "processingTime": "5 días hábiles",
+      "delivery": "Respuesta formal vía correo y cargada en SGA",
+      "cost": "$38.500",
+      "updatedAt": "2025-08-12T14:15:00-05:00",
+      "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Mesa con formularios y sellos oficiales",
+      "tags": ["Homologación", "Pruebas internacionales", "Ubicación"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Validamos certificados internacionales, resultados de pruebas institucionales y constancias emitidas por otras academias durante los últimos 18 meses."
+        },
+        {
+          "type": "paragraph",
+          "text": "El comité académico revisa los soportes y determina el nivel que corresponde en la oferta del Centro de Idiomas. Recibirás la respuesta oficial en el correo registrado."
+        },
+        {
+          "type": "list",
+          "title": "Documentos sugeridos",
+          "items": [
+            "Certificado o diploma con intensidad horaria.",
+            "Resultado oficial de la prueba aplicada.",
+            "Contenido programático o descripción del curso."
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Enviar soportes",
+        "url": "https://forms.office.com/pages/homologacion-nivel"
+      },
+      "requirements": [
+        "Certificación emitida en los últimos 18 meses.",
+        "Calibración mínima equivalente a B1.",
+        "Copia de documento de identidad."
+      ]
+    },
+    {
+      "slug": "acuerdo-pago-2025-2",
+      "title": "Acuerdo de pago por saldos pendientes 2025-2",
+      "summary": "Gestiona facilidades de pago para continuar con tus clases sin interrupciones.",
+      "category": "Financiero",
+      "year": 2025,
+      "semester": "segundo",
+      "status": "Abierto",
+      "audience": "Estudiantes con saldos vencidos menores a 90 días",
+      "processingTime": "2 días hábiles",
+      "delivery": "Acta firmada y cargada en el expediente",
+      "cost": "Sin costo adicional",
+      "updatedAt": "2025-08-18T09:50:00-05:00",
+      "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Firma de acuerdo de pago con calculadora",
+      "tags": ["Finanzas", "Cartera", "Continuidad académica"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este acuerdo te permite dividir el saldo vencido en hasta tres cuotas internas sin intereses adicionales, siempre que cumplas con el pago inicial del 30%."
+        },
+        {
+          "type": "paragraph",
+          "text": "La asesoría se realiza de manera virtual o presencial y finaliza con un acta firmada por el estudiante o acudiente."
+        }
+      ],
+      "cta": {
+        "label": "Agendar asesoría",
+        "url": "https://forms.office.com/pages/acuerdo-pago"
+      },
+      "requirements": [
+        "Carta de intención firmada.",
+        "Adjuntar soporte del pago inicial (mínimo 30%)."
+      ]
+    },
+    {
+      "slug": "certificado-movilidad-2025-1",
+      "title": "Certificado para procesos de movilidad internacional",
+      "summary": "Documento bilingüe que acredita tu nivel y promedio para postulaciones internacionales.",
+      "category": "Internacionalización",
+      "year": 2025,
+      "semester": "primer",
+      "status": "Disponible",
+      "audience": "Estudiantes que aplican a intercambios 2025-2",
+      "processingTime": "4 días hábiles",
+      "delivery": "Documento físico y copia digital",
+      "cost": "$32.000",
+      "updatedAt": "2025-03-04T11:00:00-05:00",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Pasaporte y documentos de movilidad",
+      "tags": ["Movilidad", "Becas", "Internacionalización"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El certificado se emite en formato bilingüe y describe tu nivel alcanzado, promedio y las competencias comunicativas desarrolladas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es válido para convocatorias de movilidad, prácticas internacionales y programas de doble titulación que soliciten soporte académico reciente."
+        },
+        {
+          "type": "list",
+          "title": "Información que contiene",
+          "items": [
+            "Nivel MCER alcanzado y resultados por habilidad.",
+            "Carga horaria acumulada en el Centro de Idiomas.",
+            "Datos de contacto para verificación internacional."
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Descargar formato",
+        "url": "https://forms.office.com/pages/certificado-movilidad"
+      },
+      "requirements": [
+        "Carta de aceptación preliminar o convocatoria.",
+        "Promedio acumulado igual o superior a 3.8."
+      ]
+    },
+    {
+      "slug": "actualizacion-datos-2024-2",
+      "title": "Actualización de datos personales y de contacto",
+      "summary": "Reporta cambios en tu número, correo o EPS para mantener vigente tu matrícula.",
+      "category": "Administrativo",
+      "year": 2024,
+      "semester": "segundo",
+      "status": "Disponible",
+      "audience": "Toda la comunidad del Centro de Idiomas",
+      "processingTime": "24 horas",
+      "delivery": "Confirmación automática al correo",
+      "cost": "Sin costo",
+      "updatedAt": "2024-10-10T16:20:00-05:00",
+      "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Persona actualizando información en una tablet",
+      "tags": ["Datos", "Actualización", "Soporte"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mantener los datos de contacto actualizados nos permite enviarte recordatorios de pagos, novedades académicas y alertas de seguridad."
+        },
+        {
+          "type": "paragraph",
+          "text": "La actualización se refleja en todos los sistemas institucionales en máximo 24 horas hábiles."
+        }
+      ],
+      "cta": {
+        "label": "Actualizar ahora",
+        "url": "https://forms.office.com/pages/actualizacion-datos"
+      },
+      "requirements": [
+        "Documento de identidad.",
+        "Formato de autorización de datos firmado."
+      ]
+    },
+    {
+      "slug": "constancia-docente-2024-1",
+      "title": "Constancia laboral para docentes de apoyo",
+      "summary": "Emisión de certificaciones laborales con detalle de horas y periodos ejecutados.",
+      "category": "Talento humano",
+      "year": 2024,
+      "semester": "primer",
+      "status": "Disponible",
+      "audience": "Docentes ocasionales y monitores",
+      "processingTime": "4 días hábiles",
+      "delivery": "PDF firmado digitalmente",
+      "cost": "Sin costo",
+      "updatedAt": "2024-05-18T09:40:00-05:00",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Profesora revisando documentación laboral",
+      "tags": ["Docentes", "Talento humano", "Laboral"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La constancia detalla los periodos ejecutados, horas dictadas, tipo de vinculación y proyectos apoyados durante el semestre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es válida para procesos ante otras instituciones, convocatorias docentes y trámites de experiencia laboral."
+        }
+      ],
+      "cta": {
+        "label": "Radicar solicitud",
+        "url": "https://forms.office.com/pages/constancia-docente"
+      },
+      "requirements": [
+        "Formato único de solicitud firmado.",
+        "Copia del último contrato o acta de inicio."
+      ]
+    },
+    {
+      "slug": "devolucion-pagos-2024-1",
+      "title": "Devolución de pagos duplicados",
+      "summary": "Trámite para reembolso de giros por concepto de matrículas o exámenes internacionales.",
+      "category": "Financiero",
+      "year": 2024,
+      "semester": "primer",
+      "status": "Con verificación",
+      "audience": "Estudiantes y acudientes",
+      "processingTime": "8 días hábiles",
+      "delivery": "Transferencia bancaria registrada",
+      "cost": "Sin costo",
+      "updatedAt": "2024-03-12T13:10:00-05:00",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1280&q=80",
+      "imageAlt": "Ejecutivo revisando comprobantes de pago",
+      "tags": ["Devoluciones", "Pagos", "Tesorería"],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este proceso aplica para matrículas, exámenes internacionales o pagos duplicados por error en plataformas bancarias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Luego de validar la información, Tesorería programa la transferencia al titular registrado en un plazo máximo de ocho días hábiles."
+        },
+        {
+          "type": "list",
+          "title": "Recomendaciones",
+          "items": [
+            "Verifica que la cuenta bancaria esté activa y a tu nombre.",
+            "Conserva los comprobantes originales hasta finalizar el trámite.",
+            "Envía la documentación en un solo archivo PDF para agilizar la revisión."
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Iniciar reembolso",
+        "url": "https://forms.office.com/pages/devolucion-pagos"
+      },
+      "requirements": [
+        "Comprobante original y copia del pago duplicado.",
+        "Certificación bancaria a nombre del solicitante."
+      ]
+    }
+  ]
+}
